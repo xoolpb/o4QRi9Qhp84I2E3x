@@ -1,0 +1,179 @@
+:root {
+    --colorBGBody: #060606;
+    --colorHeading: #111111; /* "Intro" */
+    --colorHeadingBorder: #555555; /* Below "Intro" */
+    --colorText: #ffffffcc;
+    --colorHeader: #111111;
+    --colorFooter: #111111;
+    --colorBGBox: rgba(0, 0, 53, 0.3);
+    /* Links in "main-list" */
+    --colorDiscord: #5865F2;
+    --colorDiscordLighter: #7289da;
+    --colorInstagram: #e1306c;
+    --colorInstagramLighter: #e86390;
+    --colorTwitch: #6441A5;
+    --colorTwitchLighter: #B9A3E3;
+    --colorYoutube: #ce0000;
+    --colorYoutubeLighter: #ff0000;
+    --colorTelegram: #2AABEE;
+    --colorTelegramLighter: #40bcff;
+    --colorGithub: #999999;
+    --colorGithubLighter: #b2b2b2;
+    --colorNamemc: #cccccc;
+    --colorNamemcLighter: #e5e5e5;
+    --colorOsu: #f062a1;
+    --colorOsuLighter: #ff87c6;
+    --colorForms: #ffc0cb;
+    --colorFormsLighter: #fff3f5;
+
+    --colorBorder: #7f00ff;
+    --colorOutline: #5900b3;
+
+    --mainPadding: 4em 0em 30em 0em;
+}
+
+* {
+    font-family: monospace;
+}
+
+
+footer {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid var(--colorBorder);
+    text-align: center;
+    background-color: var(--colorFooter);
+}
+
+
+footer > span {
+    color: var(--colorPalette1);
+    text-shadow: none;
+    font-weight: bold;
+}
+
+
+a.discord-link {
+    color: var(--colorDiscord);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.discord-link:hover, a.discord-link:active {
+    color: var(--colorDiscordLighter);
+    font-weight: bold;
+}
+
+
+
+a.instagram-link {
+    color: var(--colorInstagram);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.instagram-link:hover, a.instagram-link:active {
+    color: var(--colorInstagramLighter);
+    font-weight: bold;
+}
+
+
+
+a.twitch-link {
+    color: var(--colorTwitch);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.twitch-link:hover, a.twitch-link:active {
+    color: var(--colorTwitchLighter);
+    font-weight: bold;
+}
+
+
+a.youtube-link {
+    color: var(--colorYoutube);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.youtube-link:hover, a.youtube-link:active {
+    color: var(--colorYoutubeLighter);
+    font-weight: bold;
+}
+
+
+a.telegram-link {
+    color: var(--colorTelegram);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.telegram-link:hover, a.telegram-link:active {
+    color: var(--colorTelegramLighter);
+    font-weight: bold;
+}
+
+
+a.github-link {
+    color: var(--colorGithub);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.github-link:hover, a.github-link:active {
+    color: var(--colorGithubLighter);
+    font-weight: bold;
+}
+
+
+a.namemc-link {
+    color: var(--colorNamemc);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.namemc-link:hover, a.namemc-link:active {
+    color: var(--colorNamemcLighter);
+    font-weight: bold;
+}
+
+
+a.forms-link:hover, a.forms-link:active {
+    color: var(--colorFormsLighter);
+    font-weight: bold;
+}
+
+a.forms-link {
+    color: var(--colorForms);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+
+a.osu-link:hover, a.osu-link:active {
+    color: var(--colorOsuLighter);
+    font-weight: bold;
+}
+
+a.osu-link {
+    color: var(--colorOsu);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+
+.extra-link {
+    color: #ffc0cb;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.extra-link:hover, .extra-link:active {
+    color: #ffd4db;
+    text-decoration: underline;
+}
+
+.extra-description {
+    font-size:12px;
+}
